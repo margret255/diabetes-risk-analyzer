@@ -1,0 +1,1 @@
+A hands-on learning project for predicting diabetes using Support Vector Machine and Streamlit. Focuses on model building, data standardization, and simple deploy 
