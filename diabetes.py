@@ -10,7 +10,7 @@ st.title('🩺 Diabetes Prediction App')
 
 st.markdown("Enter the patient's information below:")
 
-# Input fields
+# Input fields 
 pregnancies = st.number_input('Pregnancies', min_value=0)
 glucose = st.number_input('Glucose', min_value=0)
 blood_pressure = st.number_input('Blood Pressure', min_value=0)
