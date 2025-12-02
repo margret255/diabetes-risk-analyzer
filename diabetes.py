@@ -28,6 +28,6 @@ if st.button('Predict'):
     prediction = model.predict(std_input)
 
     if prediction[0] == 0:
-        st.success('✅ The person is **not diabetic**.')
+        st.success(' The person is **not diabetic**.')
     else:
-        st.error('⚠️ The person **is diabetic**.')
+        st.error('The person **is diabetic**.')
