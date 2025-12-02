@@ -19,7 +19,7 @@ insulin = st.number_input('Insulin', min_value=0)
 bmi = st.number_input('BMI', min_value=0.0)
 dpf = st.number_input('Diabetes Pedigree Function', min_value=0.0)
 age = st.number_input('Age', min_value=0)
-
+ 
 
 if st.button('Predict'):
     input_data = np.array([pregnancies, glucose, blood_pressure, skin_thickness,
